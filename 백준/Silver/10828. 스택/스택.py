@@ -12,6 +12,7 @@ for i in range(int(sys.stdin.readline())) :
     com = sys.stdin.readline().split()
     order = com[0]
 
+#     pop 사용하는 거 고려하기
     if order == "pop" :
         poop(list_)
         if len(list_) != 0 :
