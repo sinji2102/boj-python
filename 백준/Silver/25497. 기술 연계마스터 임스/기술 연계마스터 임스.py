@@ -12,20 +12,20 @@ cnt = 0
 
 for i in skill :
     if i == 'S' :
-        SK.append(i)
+        SK.extend(i)
     elif i == 'K' :
         if not SK :
             break
-        elif SK :
+        else :
             SK.pop()
             cnt += 1
 
     elif i == 'L' :
-        LR.append(i)
+        LR.extend(i)
     elif i == 'R' :
         if not LR :
             break
-        elif LR :
+        else :
             LR.pop()
             cnt += 1
     else :
