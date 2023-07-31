@@ -1,13 +1,17 @@
 import sys
 
-input = sys.stdin.readline
-test_case = int(input().rstrip())
-list_ = [0] * 10001
+def input():
+    return sys.stdin.readline()
 
-for _ in range(test_case) :
-    list_[int(input())] += 1
+n = int(input())
 
-for i in range(10001) :
-    if list_[i] != 0 :
-        for j in range(list_[i]) :
+count = [0] * 10001
+
+for _ in range(n):
+    num = int(input())
+    count[num] += 1
+
+for i in range(1, 10001):
+    if count[i] != 0:
+        for _ in range(count[i]):
             print(i)
