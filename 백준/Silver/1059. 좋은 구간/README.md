@@ -1,4 +1,4 @@
-# [Silver V] 좋은 구간 - 1059 
+# [Silver IV] 좋은 구간 - 1059 
 
 [문제 링크](https://www.acmicpc.net/problem/1059) 
 
@@ -8,7 +8,7 @@
 
 ### 분류
 
-브루트포스 알고리즘(bruteforcing), 수학(math), 정렬(sorting)
+브루트포스 알고리즘, 수학, 정렬
 
 ### 문제 설명
 
